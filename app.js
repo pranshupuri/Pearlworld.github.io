@@ -1,5 +1,5 @@
 var express = require('express');
-//var newrelic = require('newrelic');
+var newrelic = require('newrelic');
 var path = require('path');
 
 var app = express();
