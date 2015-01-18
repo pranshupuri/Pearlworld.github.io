@@ -9,6 +9,7 @@ body{
 	src:url('../fonts/bold.eot');
 	src:url('../fonts/bold.svg');
 	src:url('../fonts/bold.woff');
+	src:url('../fonts/bold.otf');
 }
 
 @font-face{
@@ -17,6 +18,8 @@ body{
 	src:url('../fonts/light.eot');
 	src:url('../fonts/light.svg');
 	src:url('../fonts/light.woff');
+	src:url('../fonts/light.otf');
+
 }
 
 @font-face{
@@ -25,6 +28,7 @@ body{
 	src:url('../fonts/fina.eot');
 	src:url('../fonts/fina.svg');
 	src:url('../fonts/fina.woff');
+	src:url('../fonts/fina.otf');
 }
 @font-face{
 	font-family:reg;
@@ -32,6 +36,7 @@ body{
 	src:url('../fonts/reg.eot');
 	src:url('../fonts/reg.svg');
 	src:url('../fonts/reg.woff');
+	src:url('../fonts/erg.otf');
 }
 
 @font-face{
@@ -40,6 +45,7 @@ body{
 	src:url('../fonts/itali.eot');
 	src:url('../fonts/itali.svg');
 	src:url('../fonts/itali.woff');
+	src:url('../fonts/itali.otf');
 }
 /*---------COLOR----------*/
 .pink{color: #cc0387}
