@@ -63,9 +63,13 @@ li>a{
 	color: #fff;
 }
 a{text-decoration: none; color: #000;}
-a:hover{
+li>a:hover{
 	color:#cc0387;
 }
+h2>a:hover{
+	color:#cc0387;
+}
+
 
 /*----------header----------*/
 #header{
@@ -84,7 +88,7 @@ a:hover{
 }
 
 ul>li{
-	margin-top:130px;
+	margin-top:125px;
 	height:30px;
 	width:50px;
 	//border:1px solid;
@@ -138,11 +142,11 @@ ul>li{
 	min-height: 300px;
 	border-bottom: 2px solid #cc0387;
 	background: #ccc;
+	text-align: center;
 }
 
 /*--------home------*/
 #home{
-	margin-top: -34px;
 	background: #fff;
 }
 
@@ -164,14 +168,14 @@ p{
 
 
 .button{
-	height: 20px;
 	width: 100px;
 	margin:20px auto;
 	border: 2px solid #000;
 	border-radius: 5px;
 	text-align: center;
-	padding-top: 10px;
+	padding: 10px;
 	font-family: light;
+	display: inline-block;
 }
 
 .button:hover{
