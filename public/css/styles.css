@@ -39,12 +39,12 @@ body{
 }
 
 @font-face{
-	font-family:itali;
-	src:url('../fonts/itali.ttf');
-	src:url('../fonts/itali.eot');
-	src:url('../fonts/itali.svg');
-	src:url('../fonts/itali.woff');
-	src:url('../fonts/itali.otf');
+	font-family:curve;
+	src:url('../fonts/curve.ttf');
+	src:url('../fonts/curve.eot');
+	src:url('../fonts/curve.svg');
+	src:url('../fonts/curve.woff');
+	src:url('../fonts/curve.otf');
 }
 /*---------COLOR----------*/
 .pink{color: #cc0387}
@@ -159,7 +159,7 @@ h1{
 
 p{
 	font-size: 20px;
-	font-family: itali;
+	font-family: curve;
 }
 
 
