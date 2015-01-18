@@ -1,14 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-	<title>Vishal Nama</title>
-	<style>
-		h1 {text-align: center; font-weight: normal; color: #222; }
-		body {background: #eee;}
-	</style>
+	<title>VIshal NAma</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-	<h1>Vishal Nama sucks</h1>
+	<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    // init the FB JS SDK
+    FB.init({
+      appId      : '483300735096150',                        // App ID from the app dashboard
+      status     : true,                                 // Check Facebook Login status
+      xfbml      : true                                  // Look for social plugins on the page
+    });
+
+    // Additional initialization code such as adding Event Listeners goes here
+  };
+
+  // Load the SDK asynchronously
+	  (function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=483300735096150";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#views">Views</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<a href="http://www.facebook.com/nama.vishal"><span id="fb" class="social"></span></a>
+				<a href="http://www.twitter.com/vishal_nama"><span id="tw" class="social"></span></a>
+			</ul>
+		</div>
+	</div>
+
+	<div id="container">
+		<div id="home" class="cont bgblack"></div>
+		<div id="views" class="cont">
+			<div id="feed">
+				<a 
+					id="twt"
+					class="twitter-timeline" 
+					href="https://twitter.com/vishal_nama"
+					height="250"
+					width="800"
+					data-widget-id="361445100338962432"
+					data-screen-name="vishal_nama" 
+					data-show-replies="false"
+					data-tweet-limit="2"
+					data-link-color="#cc0387"
+					data-border-color="#cc0387"
+					data-font-size="25px"
+					data-chrome="nofooter transparent noheader noborder noscrollbar "
+				></a>
+
+				<script>
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+				if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+				</script><br>
+				<div id="follow">
+					<a
+						href="https://twitter.com/vishal_nama" 
+						class="twitter-follow-button" 
+						data-show-count="true" 
+						data-size="small" 
+						data-show-screen-name="false"
+					></a>
+					<div 
+						class="fb-follow" 
+						data-href="https://www.facebook.com/nama.vishal" 
+						data-colorscheme="dark" 
+						data-layout="button_count" 
+						data-show-faces="false">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="work" class="cont bgblack"></div>
+		<div id="Contact" class="cont bgblack">
+
+		</div>
+	</div>
+
+	<div id="footer">
+			<h2>All Rights Reserved. 2015 <br> &copy; <a href="http://facebook.com/nama.vishal" target="_blank"><u>VIshal NAma</u></a>.</h2>
+	</div>
 </body>
 </html>
-
