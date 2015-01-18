@@ -26,19 +26,38 @@ body{
 	src:url('../fonts/fina.svg');
 	src:url('../fonts/fina.woff');
 }
+@font-face{
+	font-family:reg;
+	src:url('../fonts/reg.ttf');
+	src:url('../fonts/reg.eot');
+	src:url('../fonts/reg.svg');
+	src:url('../fonts/reg.woff');
+}
+
+@font-face{
+	font-family:itali;
+	src:url('../fonts/itali.ttf');
+	src:url('../fonts/itali.eot');
+	src:url('../fonts/itali.svg');
+	src:url('../fonts/itali.woff');
+}
 /*---------COLOR----------*/
 .pink{color: #cc0387}
 /*--------Classes---------*/
 
 .bgblack{background: #000;}
 .bgwhite{background: #fff;}
-
+.cw{color:#fff;}
+.fl{float: left;}
+.fr{float: right;}
+.alr{text-align: right}
+.all{text-align: left;}
 /*--------Tags---------*/
-a{
+li>a{
 	text-decoration: none;
 	color: #fff;
 }
-
+a{text-decoration: none; color: #000;}
 a:hover{
 	color:#cc0387;
 }
@@ -47,7 +66,7 @@ a:hover{
 #header{
 	height:150px;
 	width:100%;
-	background:url('../images/menu.jpg') no-repeat center; #555;
+	background:url('../images/menu.jpg') no-repeat center #000;
 	background-size: 100%;
 	margin-top:-16px;
 	border-bottom: 1px solid #cc0387;
@@ -71,12 +90,13 @@ ul>li{
 	font-size: 18px;
 }
 
+
 .social{
 	height: 50px;
 	width:50px;
 	background: #fff;
-	float:right;
 	margin:95px 5px;
+	float: right;
 }
 
 #fb{
@@ -111,12 +131,48 @@ ul>li{
 /*---------container--------*/
 .cont{
 	min-height: 300px;
-	border-bottom: 2px solid #101010;
+	border-bottom: 2px solid #cc0387;
+	background: #ccc;
 }
 
 /*--------home------*/
+#home{
+	margin-top: -34px;
+	background: #fff;
+}
+
+h1,p{
+	color:#cc0387;
+	text-align: center;
+}
+
+h1{
+	padding-top: 90px;
+	font-size: 50px;
+	font-family:itali;
+}
+
+p{
+	font-size: 20px;
+	font-family: bold;
+}
 
 
+.button{
+	height: 20px;
+	width: 100px;
+	margin:20px auto;
+	border: 2px solid #000;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: light;
+}
+
+.button:hover{
+	border: 2px solid #cc0387;
+	color: #cc0387
+}
 /*---------about---------*/
 
 #twt{
@@ -128,7 +184,7 @@ ul>li{
 	text-align: center;
 	color:#cc0387;
 	font-size: 20px;
-	background: #000;
+	background: #eee;
 	font-family: light;
 }
 
@@ -138,6 +194,17 @@ ul>li{
 	margin:0px auto;
 }
 
+
+/*------------Work------*/
+
+#work{
+	background: #ddd;
+}
+
+/*------------conatct------*/
+#conta{
+	background: #ccc;
+}
 /*---------footer-------*/
 h2{
 	text-align: center;
@@ -152,3 +219,5 @@ h2{
 	margin-bottom: -15px;
 	padding-bottom: 5px;
 }
+
+h2>a{color:#fff;}
