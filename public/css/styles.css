@@ -8,12 +8,12 @@ body{
 }
 /*---------FONTS--------------*/
 @font-face{
-	font-family:nova;
-	src:url('../fonts/nova.ttf');
-	src:url('../fonts/nova.eot');
-	src:url('../fonts/nova.svg');
-	src:url('../fonts/nova.woff');
-	src:url('../fonts/nova.otf');
+	font-family:regular;
+	src:url('../fonts/regular.ttf');
+	src:url('../fonts/regular.eot');
+	src:url('../fonts/regular.svg');
+	src:url('../fonts/regular.woff');
+	src:url('../fonts/regular.otf');
 }
 
 @font-face{
@@ -82,7 +82,7 @@ h2>a:hover{
 	height:auto;
 	width:100%;
 	background:url('../images/trans.png'),url('../images/1.jpg') no-repeat top #000;
-	background-size:auto;
+	background-size:100%;
 }
 
 #menu{
@@ -163,7 +163,7 @@ h1,p{
 
 h1{
 	font-size: 65px;
-	font-family:nova;
+	font-family:regular;
 }
 
 p{
