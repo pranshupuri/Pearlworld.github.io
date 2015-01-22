@@ -1,6 +1,7 @@
 body{
 	margin:0px;
 	border-top: 5px solid #333;
+	background: ;
 }
 ::selection {
     color: #ccc; 
@@ -62,7 +63,19 @@ body{
 .alr{text-align: right}
 .all{text-align: left;}
 .active{color:#fff;}
-.img1{background:url('../images/trans.png'),url('../images/1.jpg') no-repeat top #000;}
+.logo{
+	height: 80px;
+	width: 80px;
+	background:url('../images/logoh.png') no-repeat;#555;
+	display: inline-block;
+	margin:20px;
+	background-size: 80px auto;
+	transition:background 1s;
+}
+
+.logo:hover{background:url('../images/logo.png') no-repeat;
+	background-size: 80px auto}
+.img1{background:url('../images/trans.png'),url('../images/4.jpg') no-repeat top #000;}
 .img2{background:url('../images/trans.png'),url('../images/2.jpg') no-repeat top #000;}
 .img3{background:url('../images/trans.png'),url('../images/3.jpg') no-repeat top #000;}
 /*--------Tags---------*/
@@ -85,7 +98,7 @@ h2>a:hover{
 #header{
 	height:auto;
 	width:100%;
-	background-size:100%;
+	background-size: 100%;
 }
 
 #menu{
