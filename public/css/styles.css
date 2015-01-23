@@ -197,6 +197,15 @@ ul>li{
 	font-family: regular;
 	border: 2px solid #222;
 }
+
+.project{
+	height:250px;
+	width: 200px;
+	background: url('../images/project.jpg') no-repeat center center;
+	margin: 40px 30px;
+	display: inline-block;
+}
+
 /*---------about---------*/
 
 #about,>h3{
@@ -283,7 +292,7 @@ p>a{
 	width: 200px;
 	float: right;
 	margin:-200px  50px;
-	background: url('../images/me.jpg') no-repeat center right;
+	background: url('../images/me.jpg') no-repeat center center;
 	background-size: 250px auto;
 	display: inline-block;
 }
@@ -328,17 +337,6 @@ p>a{
 #gp:hover{background: url('../images/social/gph.png') no-repeat center; background-size: 60px;}
 #pi:hover{background: url('../images/social/pih.png') no-repeat center; background-size: 60px;}
 #yt:hover{background: url('../images/social/yth.png') no-repeat center; background-size: 60px;}
-
-
-
-
-
-
-
-
-
-
-
 
 #infooter{
 	height:150px;
