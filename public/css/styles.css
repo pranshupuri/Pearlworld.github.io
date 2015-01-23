@@ -74,7 +74,7 @@ body{
 .logo{
 	height: 80px;
 	width: 80px;
-	background:url('../images/logoh.png') no-repeat;#555;
+	background:url('../images/logo.png') no-repeat;#555;
 	display: inline-block;
 	margin:20px;
 	background-size: 80px auto;
@@ -82,7 +82,7 @@ body{
 }
 
 .logo:hover{
-	background:url('../images/logo.png') no-repeat;
+	background:url('../images/logoh.png') no-repeat;
 	background-size: 80px auto;
 }
 .img1{background:url('../images/trans.png'),url('../images/4.jpg') no-repeat #000;}
