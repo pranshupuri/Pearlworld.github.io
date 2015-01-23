@@ -246,14 +246,6 @@ ul>li{
 	display: inline-block;
 	margin:0px;
 }
-
-/*#map-canvas {
-	width: 800px;
-	height: 400px;
-	margin:auto;
-	margin-bottom: 50px;
-	border: 1px solid #333;
-}*/
 /*------------Work------*/
 
 /*------------conatct------*/
@@ -301,7 +293,21 @@ p>a{
 	float: left;
 	margin-left: 10px;
 }
-#resume:hover{
+
+#cform{
+	width: 500px;
+	height: 600px;
+	background:#555;
+	margin: 50px 0px;
+	display: inline-block;
+}
+
+#map{
+	width: 400px;
+	height: 600px;
+	background:#999;
+	margin: 50px 0px;
+	display: inline-block;
 }
 /*---------footer-------*/
 #footer{
