@@ -85,9 +85,11 @@ body{
 	background:url('../images/logoh.png') no-repeat;
 	background-size: 80px auto;
 }
-.img1{background:url('../images/trans.png'),url('../images/4.jpg') no-repeat #000;}
+.img1{background:url('../images/trans.png'),url('../images/1.jpg') no-repeat #000;}
 .img2{background:url('../images/trans.png'),url('../images/2.jpg') no-repeat #000;}
 .img3{background:url('../images/trans.png'),url('../images/3.jpg') no-repeat #000;}
+.img4{background:url('../images/trans.png'),url('../images/4.jpg') no-repeat #000;}
+.img5{background:url('../images/trans.png'),url('../images/5.jpg') no-repeat #000;}
 /*--------Tags---------*/
 li>a{
 	text-decoration: none;
@@ -162,7 +164,7 @@ ul>li{
 }
 
 .button{
-	width: 110px;
+	width: 130px;
 	margin:20px 5px;
 	text-align: center;
 	padding: 13px;
@@ -205,14 +207,14 @@ ul>li{
 }
 
 #brief{
-	width:530px;
+	width:550px;
 	margin:40px auto 60px auto;
 }
 
 #brief>p{
 	font-family: noval;
 	font-size: 18px;
-	color:#777;
+	color:#666;
 	line-height: 25px;
 }
 
@@ -230,13 +232,67 @@ ul>li{
 	width: 150px;
 	height: 150px;
 	background: #555;
+	background-size: 150px auto;
 	display: inline-block;
-	margin:2px;
+	margin:0px;
 }
+
+/*#map-canvas {
+	width: 800px;
+	height: 400px;
+	margin:auto;
+	margin-bottom: 50px;
+	border: 1px solid #333;
+}*/
 /*------------Work------*/
 
 /*------------conatct------*/
+#continfo{
+	max-width: 900px;
+	margin: auto;
+	padding: 50px 0px 100px 0px;
+}
 
+#continfo>h3,p{
+	text-align: left;
+}
+ 
+#continfo>h3{
+	font-family: noval;
+	color:#222;
+	text-transform: uppercase;
+	font-size: 20px;
+	
+}
+
+#continfo>p{
+	font-family: noval;
+	color:#666;
+	font-size: 18px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+p>a{
+	color: #3d9991;
+}
+
+#me{
+	height:250px;
+	width: 200px;
+	float: right;
+	margin:-200px  50px;
+	background: url('../images/me.jpg') no-repeat center right;
+	background-size: 250px auto;
+	display: inline-block;
+}
+
+#resume{
+	float: left;
+	margin-left: 10px;
+}
+#resume:hover{
+}
 /*---------footer-------*/
 #footer{
 	height: 200px;
