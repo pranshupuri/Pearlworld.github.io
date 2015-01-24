@@ -357,6 +357,7 @@ textarea{
 
 #send{
 	background: #fff;
+	cursor:pointer;
 }
 
 #send:hover{
