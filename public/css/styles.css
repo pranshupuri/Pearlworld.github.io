@@ -295,20 +295,74 @@ p>a{
 }
 
 #cform{
-	width: 500px;
-	height: 600px;
-	background:#555;
-	margin: 50px 0px;
+	width: 588px;
+	height: 550px;
+	background:url('../images/form.png') no-repeat bottom;
+	margin: 0px 0px 100px 0px;
 	display: inline-block;
 }
 
 #map{
-	width: 400px;
+	width: 300px;
 	height: 600px;
 	background:#999;
 	margin: 50px 0px;
 	display: inline-block;
 }
+/*-------------FORM-----------*/
+input{
+	padding: 10px;
+	font-family: regular;
+	border: 1px solid #aaa;
+}
+
+#firstname{
+	margin: 43px 0px 0px 24px;
+	height: 20px;
+	width:244px;
+	float: left
+}
+
+#lastname{
+	width: 244px;
+	height: 20px;
+	margin: 43px 10px 0px 0px;
+}
+
+#email{
+	width: 521px;
+	height: 18px;
+	margin: 78px 0px 0px 3px;
+}
+
+#subject{
+	width: 521px;
+	height: 18px;
+	margin: 56px 0px 0px 3px;
+}
+
+
+#msg{
+	width: 537px;
+	height: 120px;
+	margin: 56px 0px 0px 3px;
+	resize:none;
+}
+
+#send{
+	background: #fff;
+}
+
+#send:hover{
+	background: #222;
+	color: #eee;
+	
+}
+
+
+
+
+
 /*---------footer-------*/
 #footer{
 	height: 200px;
