@@ -9,7 +9,9 @@
   "author": "Vishal Nama",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.10.2",
     "express": "^4.11.0",
-    "newrelic": "^1.14.7"
+    "newrelic": "^1.14.7",
+    "nodemailer": "^1.3.0"
   }
 }

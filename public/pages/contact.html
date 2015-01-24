@@ -55,11 +55,11 @@
 		<div class="cont">
 			<h3>Send a friendly hello !</h3>
 			<form id="cform" method="post" action="/contact">
-				<input type="text" name="first name" id="firstname" >
-				<input type="text" name="last name" id="lastname"><br>
-				<input type="text" name="email" id="email"><br>
-				<input type="text" name="subject" id="subject"><br>
-				<textarea type="text" name="message" id="msg" resize="on" ></textarea>
+				<input type="text" required name="firstName" id="firstname" >
+				<input type="text" required name="lastName" id="lastname"><br>
+				<input type="email" required name="email" id="email"><br>
+				<input type="text" required name="subject" id="subject"><br>
+				<textarea type="text" required name="message" id="msg" resize="on" ></textarea>
 				<button type="submit" id="send" class="buttonw button">Send</button>
 			</form>
 		</div>
