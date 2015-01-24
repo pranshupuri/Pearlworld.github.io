@@ -316,6 +316,12 @@ input{
 	border: 1px solid #aaa;
 }
 
+textarea{
+	padding: 10px;
+	font-family: regular;
+	border: 1px solid #aaa;
+}
+
 #firstname{
 	margin: 43px 0px 0px 24px;
 	height: 20px;
@@ -343,8 +349,8 @@ input{
 
 
 #msg{
-	width: 537px;
-	height: 120px;
+	width: 527px;
+	height: 110px;
 	margin: 56px 0px 0px 3px;
 	resize:none;
 }
@@ -356,7 +362,7 @@ input{
 #send:hover{
 	background: #222;
 	color: #eee;
-	
+
 }
 
 
