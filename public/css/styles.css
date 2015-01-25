@@ -375,8 +375,10 @@ textarea{
 
 /*------------BLOG--------*/
 #blog{
-	width: 800px;
+	width: 700px;
 	margin: auto;
+	overflow: hidden;
+	padding: 10px;
 }
 
 
@@ -399,9 +401,9 @@ textarea{
 
 hr{
 	margin-top: -37px;
-	margin-left: 120px;
+	margin-left: 110px;
 	float: left;
-	min-width: 680px;
+	min-width: 580px;
 	border: 1px solid #ccc;
 }
 
