@@ -112,7 +112,7 @@ li>a:hover{
 #menu{
 	float: right;
 	height:auto;
-	margin:0px 80px 0px auto;
+	margin:0px 50px 0px auto;
 }
 
 ul>li{
@@ -399,8 +399,9 @@ textarea{
 
 hr{
 	margin-top: -37px;
-	float: right;
-	width: 680px;
+	margin-left: 120px;
+	float: left;
+	min-width: 680px;
 	border: 1px solid #ccc;
 }
 
