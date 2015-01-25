@@ -8,10 +8,10 @@ var app = express();
 app.use(bodyParser());
 // var transporter = nodemailer.createTransport();
 var transporter = nodemailer.createTransport({
-    service: 'Gmail',
+    service: 'Mailgun',
     auth: {
-        user: 'nama0supercool@gmail.com',
-        pass: 'wapakoneta2'
+        user: 'postmaster@vishalnama.com',
+        pass: 'f0f9fa597f56431e17e7529822026492'
     }
 });
 
