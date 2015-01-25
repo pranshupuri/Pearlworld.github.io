@@ -87,7 +87,7 @@ body{
 }
 .img1{background:url('../images/trans.png'),url('../images/1.jpg') no-repeat #000;}
 .img2{background:url('../images/trans.png'),url('../images/2.jpg') no-repeat #000;}
-.img3{background:url('../images/trans.png'),url('../images/3.jpg') no-repeat #000;}
+.img3{background:url('../images/trans.png'),url('../images/3.jpg') no-repeat center #000;}
 .img4{background:url('../images/trans.png'),url('../images/4.jpg') no-repeat #000;}
 .img5{background:url('../images/trans.png'),url('../images/5.jpg') no-repeat #000;}
 /*--------Tags---------*/
