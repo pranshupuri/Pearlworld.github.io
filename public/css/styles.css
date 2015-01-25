@@ -388,6 +388,7 @@ textarea{
 	color:#666;
 	line-height: 25px;
 	text-align: center;
+	margin: 50px 0px;
 }
 
 
@@ -397,14 +398,7 @@ textarea{
 	font-size: 20px;
 	text-align: left;
 	color: #555;
-}
-
-hr{
-	margin-top: -37px;
-	margin-left: 140px;
-	float: left;
-	min-width: 580px;
-	border: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 
 
