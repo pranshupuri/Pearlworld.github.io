@@ -279,6 +279,12 @@ p>a{
 	color: #3d9991;
 }
 
+p>a:hover{
+	text-decoration: underline;
+	color: #2c8880;
+	cursor: pointer;
+}
+
 #me{
 	height:250px;
 	width: 200px;
@@ -367,7 +373,36 @@ textarea{
 }
 
 
+/*------------BLOG--------*/
+#blog{
+	width: 800px;
+	margin: auto;
+}
 
+
+#blog>p{
+	font-family: noval;
+	font-size: 18px;
+	color:#666;
+	line-height: 25px;
+	text-align: center;
+}
+
+
+.date{
+	font-family: noval;
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: left;
+	color: #555;
+}
+
+hr{
+	margin-top: -37px;
+	float: right;
+	width: 680px;
+	border: 1px solid #ccc;
+}
 
 
 /*---------footer-------*/
