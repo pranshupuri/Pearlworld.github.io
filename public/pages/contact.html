@@ -30,9 +30,10 @@
 		<div id="continfo" class="cont">
 			<h3>Contact Information</h3>
 			<p>
-				F-584 Dr. Ambedkar nagar <br> 
-				Sector -5, New Delhi <br> 
-				INDIA <br><br>
+				Facebook : <a href="http://facebook.com/nama.vishal" target="_blank">nama.vishal</a><br> 
+				Twitter : <a href="http://www.twitter.com/vishal_nama" target="_blank">vishal_nama</a><br>
+				LinkedIn : <a href="https://in.linkedin.com/in/vishalnama" target="_blank">vishalnama</a><br>
+				Instagram : <a href="http://instagram.com/vishalnama/" target="_blank">vishalnama</a><br><br>
 				<a href="mailto:hello@vishalnama.com">hello@vishalnama.com</a><br>
 				
 			</p>
@@ -42,13 +43,19 @@
 		<div class="cont">
 			<h3>Send a friendly hello !</h3>
 			<form id="cform" method="post" action="/contact">
-				<input type="text" required name="firstName" id="firstname" >
-				<input type="text" required name="lastName" id="lastname"><br>
-				<input type="email" required name="email" id="email"><br>
-				<input type="text" required name="subject" id="subject"><br>
-				<textarea type="text" required name="message" id="msg" resize="on" ></textarea>
+				<label class="lable" for="last_name">Name*</label><br><br><br>
+					<input type="text" required name="firstName" placeholder="First Name*" id="firstname">
+					<input type="text" required name="lastName" placeholder="Last Name*" id="lastname">
+						<label class="lableb" for="last_name">First Name *</label><br>
+						<label class="lableb last" for="last_name">Last Name *</label><br><br><br>
+				<label class="lable" for="last_name">Email Address*</label>
+					<input type="email" required name="email" placeholder="E-mail*" id="email"><br>
+				<label class="lable" for="last_name">Subject*</label><br><br>	
+					<input type="text" required name="subject" placeholder="Subject*" id="subject">
+				<label class="lable" for="last_name">Message*</label><br><br>	
+					<textarea type="text" required name="message" placeholder="Your Message*" id="msg" resize="on" ></textarea>
 				<button type="submit" id="send" class="buttonw button">Send</button>
-			</form>
+			</form><br><br><br>
 		</div>
 	</div>
 

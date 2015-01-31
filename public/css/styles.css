@@ -73,7 +73,7 @@ body{
 .logo{
 	height: 80px;
 	width: 80px;
-	background:url('../images/logo.png') no-repeat;#555;
+	background:url('../images/logo.png') no-repeat center;#555;
 	display: inline-block;
 	margin:20px;
 	background-size: 80px auto;
@@ -81,7 +81,7 @@ body{
 }
 
 .logo:hover{
-	background:url('../images/logoh.png') no-repeat;
+	background:url('../images/logoh.png') no-repeat center;
 	background-size: 80px auto;
 }
 .img1{background:url('../images/trans.png'),url('../images/1.jpg') no-repeat #000;}
@@ -115,9 +115,7 @@ li>a:hover{
 }
 
 ul>li{
-	margin: 0px 4px;
-	height:30px;
-	max-width:50px;
+	padding: 10px 5px;
 	display: inline-block;
 	text-align: center;
 	color:#ccc;
@@ -252,7 +250,6 @@ ul>li{
 /*------------conatct------*/
 #continfo{
 	max-width: 900px;
-	min-width: 500px;
 	margin: auto;
 	padding: 50px 0px 100px 0px;
 }
@@ -306,7 +303,7 @@ p>a:hover{
 #cform{
 	width: 588px;
 	height: 550px;
-	background:url('../images/form.png') no-repeat bottom;
+	background:url('../images/fogbrm.png') no-repeat bottom;
 	margin: 0px 0px 100px 0px;
 	display: inline-block;
 }
@@ -323,36 +320,59 @@ textarea{
 	border: 1px solid #aaa;
 }
 
+.last{
+	margin-left: 183px;
+}
+
+.lableb{
+	font-size: 12px;
+	font-family: noval;
+	color: #666;
+	float: left;
+	padding-top: 5px;
+	padding-left: 30px;
+
+}
+
+.lable{
+	font-family: noval;
+	color: #666;
+	float: left;
+	padding-left: 25px;
+	padding-top:18px;
+	padding-bottom: 5px;
+}
+
 #firstname{
-	margin: 43px 0px 0px 24px;
+	margin: 0px 0px 0px 24px;
 	height: 20px;
-	min-width:244px;
+	width:244px;
 	float: left
 }
 
 #lastname{
 	width: 244px;
 	height: 20px;
-	margin: 43px 10px 0px 0px;
+	margin: 0px 10px 0px 0px;
 }
 
 #email{
 	width: 521px;
 	height: 18px;
-	margin: 78px 0px 0px 3px;
+	margin: 0px 0px 0px 3px;
 }
 
 #subject{
 	width: 521px;
 	height: 18px;
-	margin: 56px 0px 0px 3px;
+	margin: 0px 0px 0px 3px;
 }
 
 
 #msg{
 	width: 527px;
 	height: 110px;
-	margin: 56px 0px 0px 3px;
+	margin: 0px 0px 0px 3px;
 	resize:none;
 }
 
@@ -434,7 +454,6 @@ p>img{
 #yt:hover{background: url('../images/social/yth.png') no-repeat center; background-size: 60px;}
 
 #infooter{
-	height:150px;
 	width: 100%;
 	background: #111111;
 	text-align: center;
@@ -445,11 +464,11 @@ p>img{
 	color: #000;
 	text-transform: uppercase;
 	font-size: 15px;
-	margin-top: 18px;
 	color: #000;
 	padding:10px;
 }
 #infooter>ul{
+	padding-bottom: 10px;
 	margin-left: -40px;
 	border-bottom: 1px solid #333;
 }
@@ -463,3 +482,140 @@ p>img{
 
 h2>a{color:#fff;}
 h2>a:hover{color:#aaa;}
+
+
+/*--------------media Screen------------*/
+/*------------------------600------------*/
+@media screen and (max-width: 600px) {
+	.logo{
+		margin:auto;
+		display: block;
+		padding-top:20px;
+
+	}
+	
+	#menu{
+		width: 100%;
+		margin: 0px;
+		padding-top: 10px;
+	}
+
+	ul{
+		padding: 0px;
+		text-align: center;
+		margin: auto;
+	}
+
+	ul>li{
+		padding: 5px 3px;
+		margin: 0px;
+	}
+
+	#home>h1{
+		font-size: 45px;
+		padding: 10px;
+	}
+
+	#home>p{
+		padding: 20px;
+		font-size: 20px;
+	}
+
+	#about>h3{
+		font-size: 22px;
+	}
+
+	#brief>p{
+		font-size: 15px;
+	}
+}
+
+/*-------------400--------------*/
+
+@media screen and (max-width: 400px){
+	.social{
+		height:30px;
+		width: 30px;
+		margin: 10px 5px;
+	}
+	#social{
+		height: 50px;
+	}
+	
+	#infooter>ul>li{
+		margin:15px 0px;
+		padding: 10px 3px;
+	}
+
+	#infooter>ul{
+		margin:auto;
+	}
+
+	#infooter>h2{
+		padding: 10px;
+	}
+}
+
+/*-------------510------------*/
+@media screen and (max-width: 510px) {
+	#me{
+		display: none;
+	}
+}
+/*/*------------------610-------------
+
+@media screen and (max-width: 500px){
+	#continfo{
+		width: 100%;
+	}
+
+
+	#cform{
+		width: 100%;
+		background:url('../images/fdorm.png') no-repeat bottom;
+	}
+	/*-------------FORM-----------
+	#firstname{
+		width:40%;
+		margin: 100px 0px 0px 0px;
+		float: none;
+	}
+
+	#lastname{
+		width: 40%;
+		margin: 20px 0px 0px 0px;
+	}
+
+	#email{
+		width: 90%;
+		margin: 30px 0px 0px 0px;
+	}
+
+	#subject{
+		width: 90%;
+		margin: 30px 0px 0px 0px;
+	}
+
+
+	#msg{
+		width: 90%;
+		margin: 56px 0px 0px 0px;
+		resize:none;
+	}
+
+	.last{
+		display: none;
+	}
+
+	.lableb{
+		display: none;
+	}
+
+	.lable{
+		display: none;
+	}
+
+
+}
+*/
+
