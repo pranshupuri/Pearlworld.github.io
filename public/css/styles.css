@@ -238,7 +238,7 @@ ul>li{
 	margin:50px 80px;
 }
 #pics>img{
-	width: 150px;
+	width: auto;
 	height: 150px;
 	background: #555;
 	background-size: 150px auto;
@@ -303,7 +303,6 @@ p>a:hover{
 #cform{
 	width: 588px;
 	height: 550px;
-	background:url('../images/fogbrm.png') no-repeat bottom;
 	margin: 0px 0px 100px 0px;
 	display: inline-block;
 }
