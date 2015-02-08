@@ -111,16 +111,20 @@ li>a:hover{
 #menu{
 	float: right;
 	height:auto;
-	margin:0px 50px 0px auto;
+	margin:0px 20px 0px auto;
 }
 
 ul>li{
-	padding: 10px 5px;
+	padding: 10px 10px;
 	display: inline-block;
 	text-align: center;
 	color:#ccc;
 	font-family: noval;
 	font-size: 15px;
+}
+
+#share{
+	min-width: 80px;
 }
 
 /*---------container--------*/
@@ -146,6 +150,7 @@ ul>li{
 }
 
 #home>h1{
+	margin-top: 60px;
 	font-size: 65px;
 	font-family:regular;
 	color:#fff;
@@ -202,6 +207,8 @@ ul>li{
 	margin: 40px 30px;
 	display: inline-block;
 }
+
+
 
 /*---------about---------*/
 
