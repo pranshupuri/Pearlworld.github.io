@@ -5,6 +5,7 @@ body{
     color: #ccc; 
     background: #333;
 }
+
 #preload {
    position: absolute;
    overflow: hidden;
@@ -207,7 +208,11 @@ ul>li{
 	display: inline-block;
 }
 
-
+.work1{
+	background: url('../images/work1.jpg') no-repeat center center;
+	background-size: 200px auto;
+	border: 2px solid #ccc;
+}
 
 /*---------about---------*/
 
