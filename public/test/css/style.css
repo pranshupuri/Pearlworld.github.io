@@ -1,0 +1,98 @@
+body{
+	margin: 0px;
+	background: #fff;
+}
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono|Romanesco|Rubik+One|Indie+Flower);
+
+.red{color:#b30027;}
+
+/*
+font-family: 'Droid Sans Mono', ;
+font-family: 'Romanesco', cursive;
+font-family: 'Rubik One', sans-serif;
+font-family: 'Indie Flower', cursive;
+*/
+
+#intro{
+	width: 100%;
+	height:100%;
+	background:url('../images/me.jpg') no-repeat  center bottom #b30027;
+	background-size: 400px;
+	color: #fff;
+}
+
+
+#intro>h1{
+	font-family: Indie Flower;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 5%;
+}
+
+#intro>p{
+	font-family: Indie Flower;
+	font-size: 25px;
+	text-align: center;
+	margin-top: -60px;
+}
+
+#down{
+	height: 40px;
+	width: 100%;
+	background:url('../images/down.png') no-repeat center #b30027;
+	background-size: 30px;
+	margin-top: -40px;
+	transition: background .3s;
+	-webkit-transition: background .3s;
+}
+
+
+#down:hover{
+	background:url('../images/down2.png') no-repeat center #ddd;
+	background-size: 30px;
+}
+
+#header{
+	width: 100%;
+	min-height: 10px;
+	background: #b30027;
+}
+
+#menu{
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	padding:20px 0px; 
+}
+
+ul>a>li{
+	padding: 16px 20px;
+	display: inline-block;
+	margin-top:-16px; 
+}
+
+ul>a{
+	color: #fff;
+	text-decoration: none;
+}
+
+li:hover{
+	background: #c41138
+}
+
+/*------Medai Screen --------*/
+
+@media screen and (max-width: 450px) {
+	#intro{background-size: 300px;}
+
+	#intro>h1{
+		font-size: 70px;
+	}
+
+	#intro>p{
+		font-size: 20px;
+		margin-top:-50px; 
+	}
+
+	ul>a>li{padding: 16px 5px;}
