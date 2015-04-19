@@ -13,6 +13,15 @@ font-family: 'Romanesco', cursive;
 font-family: 'Rubik One', sans-serif;
 font-family: 'Indie Flower', cursive;
 */
+
+#preload {
+   position: absolute;
+   overflow: hidden;
+   left: -9999px; 
+   top: -9999px;
+   height: 1px;
+   width: 1px;
+}
 /*--------intro------------*/
 #intro{
 	width: 100%;
@@ -89,12 +98,11 @@ font-family: 'Indie Flower', cursive;
 /*--------Cont-------*/
 
 #cont{
-	height: 500px;
+	min-height: 500px;
 	padding-top: 20px;
 	background: #fff;
 }
 
-.cont{min-height: 250px;}
 .cont>h2{
 	text-align: center;
 	color:#b30027;
@@ -144,6 +152,78 @@ font-family: 'Indie Flower', cursive;
 	margin:auto;
 }
 
+#work{max-width: 734px;margin: auto;}
+
+.project{
+	height:250px;
+	width: 180px;
+	background: url('../images/project.jpg') no-repeat center center;
+	margin: 40px 30px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.work1{
+	background: url('../images/wall.jpg') no-repeat center center;
+	background-size:180px auto;
+}
+
+.work2{
+	background: url('../images/post.jpg') no-repeat center center;
+	background-size:auto 250px;
+}
+
+.work3{
+	background: url('../images/misc.jpg') no-repeat center center;
+	background-size:auto 250px;
+}
+
+.up{
+	min-height: 300px;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+	color:#fff;
+	background:#b40027;
+	position: relative;
+	top:207px;
+	transition:color, top .3s;
+	-webkit-transition:color, top .3s;
+}
+
+
+.up:hover{
+	top: 60px;
+	overflow:visible;
+	background:#fff;
+	color: #b40027
+}
+
+.up>h3{
+	font-size: 25px;
+	font-family: Indie Flower;
+	margin-top: 5px;
+	border-bottom: 2px solid #b40027;
+}
+
+.up>p{
+	text-align: center;
+	font-size: 12px;
+	font-family: Droid Sans Mono;
+	padding:5px;
+	margin-top: -20px
+}
+
+.up>p>a{
+	font-size: 15px;
+	font-family: Droid Sans Mono;
+	color: #000;
+	font-weight: bolder;
+}
+
+.up>p>a:hover{
+	color:#c41138;
+}
 
 /*--------Footer--------*/
 
@@ -195,12 +275,29 @@ font-family: 'Indie Flower', cursive;
 
 #social{
 	height:50px;
-	max-width: 600px;
+	max-width: 374px;
 	margin: auto;
-	background: #966;
 }
-
-
+.social{
+	height:50px;
+	width: 50px;
+	display: inline-block;
+	margin: 0px auto;
+}
+#fb{background: url('../images/social/fb.png') no-repeat center ; background-size: 50px;}
+#tw{background: url('../images/social/tw.png') no-repeat center ; background-size: 50px;}
+#in{background: url('../images/social/in.png') no-repeat center ; background-size: 50px;}
+#insta{background: url('../images/social/insta.png') no-repeat center ; background-size: 50px;}
+#gp{background: url('../images/social/gp.png') no-repeat center ; background-size: 50px;}
+#pi{background: url('../images/social/pi.png') no-repeat center ; background-size: 50px;}
+#yt{background: url('../images/social/yt.png') no-repeat center ; background-size: 50px;}
+#fb:hover{background: url('../images/social/fbh.png') no-repeat center; background-size: 50px;}
+#tw:hover{background: url('../images/social/twh.png') no-repeat center; background-size: 50px;}
+#in:hover{background: url('../images/social/inh.png') no-repeat center; background-size: 50px;}
+#insta:hover{background: url('../images/social/instah.png') no-repeat center; background-size: 50px;}
+#gp:hover{background: url('../images/social/gph.png') no-repeat center; background-size: 50px;}
+#pi:hover{background: url('../images/social/pih.png') no-repeat center; background-size: 50px;}
+#yt:hover{background: url('../images/social/yth.png') no-repeat center; background-size: 50px;}
 
 /*------Medai Screen --------*/
 
@@ -214,3 +311,10 @@ font-family: 'Indie Flower', cursive;
 	#menu>a>li{padding: 16px 5px;}
 	#footer>p{font-size: 15px;}
 	#bmenu>a>li{padding: 10px 8px;}
+	.social{
+		height:30px;
+		width: 30px;
+		margin: 10px 5px;
+	}
+	#social{max-width: 304px;}
+	
