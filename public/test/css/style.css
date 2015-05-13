@@ -30,21 +30,11 @@ font-family: 'Indie Flower', cursive;
 */
 
 /*--------intro------------*/
-#logo{
-	height: 60px;
-	width: 60px;
-	margin:40px auto 20px auto;
-	background: url('../images/logo.svg') no-repeat center;
-	background-size: 60px;
-}
 
-#logo:hover{
-	background: url('../images/logoh.svg') no-repeat center;
-	background-size: 60px;
-}
 
 #intro{
 	height:100%;
+	width: 100%;
 }
 
 
@@ -108,22 +98,37 @@ a{text-decoration: none;}
 /*---------Header----------*/
 #header{
 	width: 100%;
-	min-height: 90px;
+	height: 180px;
 	background: #b30027;
 }
 
+#logo{
+	height: 60px;
+	width: 60px;
+	margin:10px auto 20px auto;
+	background: url('../images/logo.svg') no-repeat center;
+	background-size: 60px;
+}
+
+#logo:hover{
+	background: url('../images/logoh.svg') no-repeat center;
+	background-size: 60px;
+}
+
 #menu{
+	width: 100%;
 	list-style: none;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
 	margin-left: -40px;
+	background: #b30027
 }
 
 #menu>a>li{
 	padding: 20px 20px;
 	display: inline-block;
-	margin-top:-16px; 
+	margin-top: -16px
 }
 
 #menu>a{
@@ -135,7 +140,7 @@ a{text-decoration: none;}
 #menu>a>li:hover{
 	background: #c41138
 }
-
+.fixed { position: fixed; top: -20px; }
 /*-------------------cont-----------------*/
 #cont{
 	width: 100%;
@@ -262,4 +267,10 @@ p>img{
 
 	#intro>p{
 		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 464px){
+	#header{
+		height: 220px;
 	}
