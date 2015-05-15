@@ -19,6 +19,8 @@ body{
 .trans{	transition: background .3s; -webkit-transition: background .3s;}
 .dib{display: inline-block;}
 .mra{margin: auto;}
+.active{background: #33899c}
+.activef{background: #005669}
 
 /*---------fonts & colors -------------*/
 
@@ -258,6 +260,82 @@ p>img{
 	-webkit-transition-delay: 100ms;
 	transition-delay: 100ms;
 }
+
+#footer{
+	width: 100%;
+	text-align: center;
+	display:inline-block;
+	min-height:200px;
+	background: #22788b;
+}
+
+#footer>ul>li{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #000;
+	display: inline-block;
+}
+
+#footer>ul{
+	padding-bottom: 10px;
+	margin-left: -40px;
+}
+
+#footer>h2{
+	font-size: 17px;
+	font-family: Droid Sans Mono;
+	color:#fff;
+	font-weight: lighter;
+}
+
+
+#footer>ul>li>a{
+	padding: 16px 10px;
+	color: #aaa;
+	font-family: Droid Sans Mono;
+}
+
+#footer>ul>li>a:hover{
+	background: #005669;
+	color: #fff;
+}
+
+#infooter{
+	width: 100%;
+	min-height: 60px;
+	background: #005669;
+} 
+
+#sc{
+	width: auto;
+	text-align: center;
+}
+
+.social{
+	height:60px;
+	width: 60px;
+	display: inline-block;
+	margin: 10px auto;
+	background: #a5d
+}
+
+#fb{background: url('../images/social/fb.png') no-repeat center ; background-size: 60px;}
+#tw{background: url('../images/social/tw.png') no-repeat center ; background-size: 60px;}
+#in{background: url('../images/social/in.png') no-repeat center ; background-size: 60px;}
+#insta{background: url('../images/social/insta.png') no-repeat center ; background-size: 60px;}
+#gp{background: url('../images/social/gp.png') no-repeat center ; background-size: 60px;}
+#pi{background: url('../images/social/pi.png') no-repeat center ; background-size: 60px;}
+#yt{background: url('../images/social/yt.png') no-repeat center ; background-size: 60px;}
+#fb:hover{background: url('../images/social/fbh.png') no-repeat center ; background-size: 60px;}
+#tw:hover{background: url('../images/social/twh.png') no-repeat center ; background-size: 60px;}
+#in:hover{background: url('../images/social/inh.png') no-repeat center ; background-size: 60px;}
+#insta:hover{background: url('../images/social/instah.png') no-repeat center ; background-size: 60px;}
+#gp:hover{background: url('../images/social/gph.png') no-repeat center ; background-size: 60px;}
+#pi:hover{background: url('../images/social/pih.png') no-repeat center ; background-size: 60px;}
+#yt:hover{background: url('../images/social/yth.png') no-repeat center ; background-size: 60px;}
+
+
 /*----------Media Queries-------------*/
 
 @media screen and (max-width: 400px){
@@ -267,6 +345,11 @@ p>img{
 
 	#intro>p{
 		font-size: 20px;
+	}
+	.social{
+		height:30px;
+		width: 30px;
+		margin: 20px 8px;
 	}
 }
 
