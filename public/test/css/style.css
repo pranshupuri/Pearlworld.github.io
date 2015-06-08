@@ -4,7 +4,19 @@ body{
 }
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono|Romanesco|Rubik+One|Indie+Flower);
 
+::selection {
+    color: #ccc; 
+    background: #333;
+}
 
+#preload {
+   position: absolute;
+   overflow: hidden;
+   left: -9999px; 
+   top: -9999px;
+   height: 1px;
+   width: 1px;
+}
 
 /*----------Classes---------*/
 .purple{color: #6a264e}
@@ -100,14 +112,15 @@ a{text-decoration: none;}
 /*---------Header----------*/
 #header{
 	width: 100%;
-	height: 180px;
+	height: auto;
 	background: #22788b;
 }
 
 #logo{
 	height: 60px;
 	width: 60px;
-	margin:10px auto 20px auto;
+	padding-top:10px;
+	margin:0px auto 10px auto;
 	background: url('../images/logo.svg') no-repeat center;
 	background-size: 60px;
 }
@@ -172,7 +185,7 @@ a{text-decoration: none;}
 	margin: auto;
 	padding: 10px;
 }
-p>img{
+.div>p>img{
 	height: 150px;
 	width: 150px;
 	background: #333;
@@ -261,6 +274,197 @@ p>img{
 	transition-delay: 100ms;
 }
 
+/*--------------Work/Blog------------*/
+#blog{
+	overflow: hidden;
+	padding: 10px;
+}
+
+
+#blog>p{
+	max-width: 800px;
+	font-family: Droid Sans Mono;
+	font-size: 18px;
+	color:#666;
+	line-height: 25px;
+	text-align: center;
+	margin: 50px auto;
+}
+h4{
+	padding-left: 10px
+}
+#blog>a{
+	color: #2c8880;
+}
+p>img{
+	max-width:99%;
+}
+
+#blog>p>a{
+	color: #33899c
+}
+.date{
+	margin:50px auto;
+	max-width: 800px;
+	font-family: Rubik One;
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: left;
+	color: #2c8880;
+	border-bottom: 1px solid #1e6662;
+}
+
+
+.cont>h3{
+	font-family: Droid Sans Mono;
+	font-size: 25px;
+	padding-top: 20px;
+	color: #1b7770;
+	text-align: center;
+	text-decoration: underline
+}
+
+/*--------------Contact------------*/
+#continfo{
+	max-width: 900px;
+	margin: auto;
+	padding: 50px 0px 100px 0px;
+	border-bottom: 1px solid #aaa;
+}
+
+#continfo>h3,p{
+	text-align: left;
+}
+ 
+#continfo>h3{
+	font-family: Droid Sans Mono;
+	color:#222;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-left: 10px
+	
+}
+#continfo>p{
+	font-family: Droid Sans Mono;
+	color:#666;
+	font-size: 18px;
+	line-height: 30px;
+	padding-left: 20px;
+}
+
+#continfo>p>a{
+	color: #3d9991;
+}
+
+#continfo>p>a:hover{
+	text-decoration: underline;
+	color: #2c8880;
+	cursor: pointer;
+}
+
+#me{
+	height:250px;
+	width: 200px;
+	float: right;
+	margin:-200px  50px;
+	background: url('../images/me.jpg') no-repeat center center;
+	background-size: 250px auto;
+	display: inline-block;
+}
+
+#resume{
+	float: left;
+	margin-left: 35px;
+}
+
+#cform{
+	width: 588px;
+	height: 550px;
+	margin: 0px 0px 100px 0px;
+	display: inline-block;
+}
+
+#form{
+	max-width: 527px;
+	height: 550px;
+	margin: auto;
+}
+
+/*-------------FORM-----------*/
+input{
+	padding: 20px;
+	font-family: Rubik One;
+	font-weight: lighter;
+	border: 0px solid #fff;
+	border-bottom: 1px solid #ccc;
+	color: #2c8880;
+}
+
+
+input:focus{
+	border-bottom: 2px solid #2c8880;
+	outline:none;
+}
+textarea{
+	padding: 10px;
+	font-family: Rubik One;
+	border: 0px solid #fff;
+	border-bottom: 1px solid #ccc;
+	color: #2c8880;
+}
+
+textarea:focus{
+	border-bottom: 2px solid #2c8880;
+	outline:none;
+}
+
+
+#firstname{
+	margin: 80px 0px 0px 3px;
+	height: 20px;
+	width:244px;
+	float: left
+}
+
+#lastname{
+	width: 244px;
+	height: 20px;
+	margin: 80px 10px 0px 33px;
+}
+
+#email{
+	width: 521px;
+	height: 18px;
+	margin: 40px 0px 0px 3px;
+}
+
+#subject{
+	width: 521px;
+	height: 18px;
+	margin: 40px 0px 0px 3px;
+}
+
+
+#msg{
+	width: 521px;
+	height: 80px;
+	margin: 40px 0px 0px 3px;
+	resize:none;
+}
+
+#send{
+	margin:50px 20px;
+	height: 50px;
+	background: #fff;
+	cursor:pointer;
+}
+
+#send:hover{
+	background: #222;
+	color: #eee;
+
+}
+/*---------------------Footer--------------*/
 #footer{
 	width: 100%;
 	text-align: center;
@@ -357,3 +561,46 @@ p>img{
 	#header{
 		height: 220px;
 	}
+
+/*------------------610-------------*/
+
+@media screen and (max-width: 600px){
+	#continfo{
+		width: 100%;
+	}
+
+
+	#cform{
+		width: 100%;
+	}
+	/*-------------FORM-----------*/
+	#firstname{
+		width:95%;
+		float: none;
+		margin: 30px 0px 0px 10px;
+	}
+
+	#lastname{
+		width: 95%;
+		margin: 30px 0px 0px 10px;
+		float: none
+	}
+
+	#email{
+		width: 95%;
+		margin: 30px 0px 0px 10px;
+	}
+
+	#subject{
+		width: 95%;
+		margin: 30px 0px 0px 10px;
+	}
+
+
+	#msg{
+		width: 95%;
+		margin: 40px 0px 0px 10px;
+		resize:none;
+	}
+
+}
