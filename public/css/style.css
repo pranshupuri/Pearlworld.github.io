@@ -75,6 +75,7 @@ a{text-decoration: none;}
 
 .button{
 	font-family: rubik one;
+	font-size: 15px;
 	height:20px;
 	width: 150px;
 	margin:10px auto;
@@ -193,7 +194,7 @@ a{text-decoration: none;}
 	border: 2px solid #ddd
 }
 
-.photo-grid {
+/*.photo-grid {
 	min-width: 100px;
 	margin:0px auto 0px -125px;
 	text-align: center;
@@ -260,7 +261,7 @@ a{text-decoration: none;}
 }
 
 .photo-grid figcaption {
-	color: white;
+	*/color: white;
 	display: table;
 	height: 100%;
 	left: 0;
@@ -345,6 +346,7 @@ p>img{
 	
 }
 #continfo>p{
+	width: 300px;
 	font-family: Droid Sans Mono;
 	color:#666;
 	font-size: 18px;
@@ -366,7 +368,7 @@ p>img{
 	height:250px;
 	width: 200px;
 	float: right;
-	margin:-200px  50px;
+	margin:70px 50px 50px 0px;
 	background: url('../images/me.jpg') no-repeat center center;
 	background-size: 250px auto;
 	display: inline-block;
@@ -453,14 +455,14 @@ textarea:focus{
 }
 
 #send{
-	margin:50px 20px;
+	margin:50px 30px;
 	height: 50px;
 	background: #fff;
 	cursor:pointer;
 }
 
 #send:hover{
-	background: #222;
+	background:#22788b ;
 	color: #eee;
 
 }
@@ -556,15 +558,56 @@ textarea:focus{
 		margin: 20px 8px;
 	}
 }
-
-@media screen and (max-width: 464px){
-	#header{
-		height: 220px;
+/*-------------MENU*470---------------*/
+@media screen and (max-width: 470px){
+	#logo{
+	height: 50px;
+	width: 50px;
+	background-size: 50px;
 	}
 
-/*------------------610-------------*/
+	#logo:hover{
+		background-size: 50px
+	}
+
+	#menu>a>li{
+		padding: 10px 10px;
+		margin-top: 0px;
+		font-size:13px;
+	}
+
+
+}
+
+
+/*-------------MENU-BOTTOM+Social*370---------------*/
+@media screen and (max-width: 370px){
+
+	#footer>ul>li>a{
+		color: #fff;
+	}
+
+
+	#footer>ul>li{
+		font-size: 13px;
+	}
+	.social{
+		height:40px;
+		width: 40px;
+		margin: 10px auto;
+	}
+
+}
+/*------------------600-------------*/
 
 @media screen and (max-width: 600px){
+
+	#me{
+		display:none;
+	}
+
+
+
 	#continfo{
 		width: 100%;
 	}
@@ -575,30 +618,30 @@ textarea:focus{
 	}
 	/*-------------FORM-----------*/
 	#firstname{
-		width:95%;
+		width:90%;
 		float: none;
 		margin: 30px 0px 0px 10px;
 	}
 
 	#lastname{
-		width: 95%;
+		width: 90%;
 		margin: 30px 0px 0px 10px;
 		float: none
 	}
 
 	#email{
-		width: 95%;
+		width: 90%;
 		margin: 30px 0px 0px 10px;
 	}
 
 	#subject{
-		width: 95%;
+		width: 90%;
 		margin: 30px 0px 0px 10px;
 	}
 
 
 	#msg{
-		width: 95%;
+		width: 90%;
 		margin: 40px 0px 0px 10px;
 		resize:none;
 	}
