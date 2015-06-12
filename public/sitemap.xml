@@ -4,36 +4,41 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>http://www.vishalnama.com/</loc>
-  <lastmod>2015-02-02T09:34:02+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.vishalnama.com/index.html</loc>
-  <lastmod>2015-02-02T09:34:02+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.vishalnama.com/pages/blog.html</loc>
-  <lastmod>2015-02-02T09:34:02+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-06-12T13:11:52+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.vishalnama.com/pages/contact.html</loc>
-  <lastmod>2015-02-02T09:34:02+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.vishalnama.com/others/resume.pdf</loc>
-  <lastmod>2015-02-02T09:34:02+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2015-06-12T13:11:52+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.vishalnama.com/pages/about.html</loc>
-  <lastmod>2015-02-02T09:34:02+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2015-06-12T13:11:52+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.vishalnama.com/pages/work.html</loc>
+  <lastmod>2015-06-12T13:11:52+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.vishalnama.com/pages/blog.html</loc>
+  <lastmod>2015-06-12T13:11:52+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.vishalnama.com/index.html</loc>
+  <lastmod>2015-06-12T13:11:52+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
 </url>
 </urlset>
