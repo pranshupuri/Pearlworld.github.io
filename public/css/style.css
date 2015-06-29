@@ -49,15 +49,18 @@ font-family: 'Indie Flower', cursive;
 #intro{
 	height:100%;
 	width: 100%;
+	background: url('../images/trans.png'), url('../images/back.jpg') no-repeat center;
+	background-size: cover;
 }
 
 
 #intro>h1{
+	
 	font-family: Rubik One;
 	font-size: 80px;
 	text-align: center;
 	padding-top: 5%;
-	color: #22788b;
+	color: #fff;
 }
 
 #intro>p{
@@ -66,10 +69,21 @@ font-family: 'Indie Flower', cursive;
 	font-size: 22px;
 	text-align: center;
 	margin-top: -50px;
-	color: #333;
+	color: #fff;
 }
+
+#intro>a>.button{
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+#intro>a>.button:hover{
+	color: #fff;
+	border: 2px solid #005669;
+}
+
 b{
-	color:#000
+	color:#fff
 }
 a{text-decoration: none;}
 
@@ -93,10 +107,9 @@ a{text-decoration: none;}
 
 
 #down{
-	border-top: 1px solid #ddd;
 	height: 40px;
 	width: 100%;
-	background:url('../images/down2b.png') no-repeat center #fff;
+	background:url('../images/down2b.png') no-repeat center #ddd;
 	background-size: 30px;
 	margin-top: -40px;
 	transition: background .3s;
