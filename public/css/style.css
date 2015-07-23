@@ -43,6 +43,15 @@ font-family: 'Rubik One', sans-serif;
 font-family: 'Indie Flower', cursive;
 */
 
+@font-face{
+	font-family:nero;
+	src:url('../fonts/nero.ttf');
+	src:url('../fonts/nero.eot');
+	src:url('../fonts/nero.svg');
+	src:url('../fonts/nero.woff');
+	src:url('../fonts/nero.woff2');
+}
+
 /*--------intro------------*/
 
 
@@ -56,17 +65,16 @@ font-family: 'Indie Flower', cursive;
 
 #intro>h1{
 	
-	font-family: Rubik One;
-	font-size: 80px;
+	font-family: nero;
+	font-size: 70px;
 	text-align: center;
 	padding-top: 5%;
 	color: #fff;
 }
 
 #intro>p{
-	font-family: Indie Flower;
-	font-weight: bold;
-	font-size: 22px;
+	font-family: Droid Sans Mono;
+	font-size: 20px;
 	text-align: center;
 	margin-top: -50px;
 	color: #fff;
@@ -75,17 +83,15 @@ font-family: 'Indie Flower', cursive;
 #intro>a>.button{
 	color: #fff;
 	border: 2px solid #fff;
+	border-radius: 25px;
 }
 
 #intro>a>.button:hover{
 	color: #fff;
 	border: 2px solid #005669;
+	background: #22788b
 }
 
-b{
-	color:#fff;
-	text-decoration:underline;
-}
 a{text-decoration: none;}
 
 .button{
@@ -110,7 +116,7 @@ a{text-decoration: none;}
 #down{
 	height: 40px;
 	width: 100%;
-	background:url('../images/down2b.png') no-repeat center #fff;
+	background:url('../images/down.png') no-repeat center;
 	background-size: 30px;
 	margin-top: -40px;
 	transition: background .3s;
@@ -119,7 +125,7 @@ a{text-decoration: none;}
 
 
 #down:hover{
-	background:url('../images/down.png') no-repeat center #22788b;
+	background:url('../images/down2b.png') no-repeat center #fff;
 	background-size: 30px;
 }
 
@@ -385,7 +391,6 @@ p>img{
 	margin:70px 50px 50px 0px;
 	background: url('../images/me.jpg') no-repeat center center;
 	background-size: 250px auto;
-	display: inline-block;
 }
 
 #resume{
@@ -597,6 +602,15 @@ textarea:focus{
 /*-------------MENU-BOTTOM+Social*370---------------*/
 @media screen and (max-width: 370px){
 
+	#intro>h1{
+		font-size: 60px;
+	}
+
+	#intro>p{
+		font-size: 18px;
+		margin-top: 0px;
+	}
+
 	#footer>ul>li>a{
 		color: #fff;
 	}
@@ -605,6 +619,7 @@ textarea:focus{
 	#footer>ul>li{
 		font-size: 13px;
 	}
+
 	.social{
 		height:40px;
 		width: 40px;
@@ -614,7 +629,7 @@ textarea:focus{
 }
 /*------------------600-------------*/
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 666px){
 
 	#me{
 		display:none;
