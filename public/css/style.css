@@ -64,38 +64,46 @@ font-family: 'Indie Flower', cursive;
 
 
 #intro>h1{
-	
+	text-shadow: 2px 4px  15px #000;
 	font-family: nero;
-	font-size: 70px;
+	font-size: 80px;
 	text-align: center;
 	padding-top: 5%;
-	color: #fff;
+	color: #27888b;
 }
 
 #intro>p{
-	font-family: Droid Sans Mono;
-	font-size: 20px;
+	text-shadow: 0px 0px  10px #000;
+	font-family: nero;
+	font-size: 18px;
 	text-align: center;
 	margin-top: -50px;
-	color: #fff;
+	color: #27888b;
 }
 
-#intro>a>.button{
+#but{
+	margin: auto;
+	max-width: 372px;
+}
+
+#intro>#but>a>.button{
+	margin: 10px 5px;
+	display: inline-block;
 	color: #fff;
-	border: 2px solid #fff;
+	border: 2px solid #ddd;
 	border-radius: 25px;
 }
 
-#intro>a>.button:hover{
-	color: #fff;
-	border: 2px solid #005669;
-	background: #22788b
+#intro>#but>a>.button:hover{
+	color: #000;
+	border: 2px solid #aaa;
+	background: #fff
 }
 
 a{text-decoration: none;}
 
 .button{
-	font-family: rubik one;
+	font-family:nero;
 	font-size: 15px;
 	height:20px;
 	width: 150px;
@@ -214,86 +222,6 @@ a{text-decoration: none;}
 	border: 2px solid #ddd
 }
 
-/*.photo-grid {
-	min-width: 100px;
-	margin:0px auto 0px -125px;
-	text-align: center;
-}
- 
-.photo-grid li {
-	height: 150px;
-	display: inline-block;
-	width: 150px;
-	margin: 5px;
-}
- 
-.photo-grid img {
-	display: block;
-	height: auto;
-}
- 
-.photo-grid figure {
-	height: 150px;
-	overflow: hidden;
-	position: relative;
-	width: 150px;
-}
- 
-.photo-grid figcaption {
-	background: rgba(0,0,0,0.8);
-	color: white;
-	height: 100%;
-}
- 
-.photo-grid figcaption p {
-	font-family: droid sana mono;
-	font-size: 20px;
-	top: -40px;
-	width: 150px;
-}
-
-.photo-grid li:hover figcaption {
-	opacity: 1;
-}
-
-.photo-grid img {
-	-webkit-transition: all 300ms;
-	transition: all 300ms;
-	max-width: 100%;
-}
- 
-.photo-grid li:hover img {
-	-webkit-transform: scale(1.4);
-	transform: scale(1.4);
-}
-
-.photo-grid figcaption p {
-	font-size: 20px;
-	font-family: droid sans mono;
-	width: 150px;
-	-webkit-transition: all 300ms ease-out;
-	transition: all 300ms ease-out;
-}
- 
-.photo-grid li:hover figcaption p {
-	-webkit-transform: translateY(40px);
-	transform: translateY(40px);
-}
-
-.photo-grid figcaption {
-	*/color: white;
-	display: table;
-	height: 100%;
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
-	-webkit-transition: all 300ms;
-	transition: all 300ms;
-	-webkit-transition-delay: 100ms;
-	transition-delay: 100ms;
-}
 
 /*--------------Work/Blog------------*/
 #blog{
@@ -567,6 +495,8 @@ textarea:focus{
 	#intro>h1{
 		font-size: 70px;
 	}
+
+	.button{display: block;}
 
 	#intro>p{
 		font-size: 20px;
