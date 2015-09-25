@@ -1,0 +1,214 @@
+body{
+	margin:0px;
+	background:#fff;
+	text-align: center;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'OverlockItalic';
+    src: url('../fonts/overlockIT.eot');
+    src: url('../fonts/overlockIT.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/overlockIT.woff') format('woff'),
+         url('../fonts/overlockIT.ttf') format('truetype'),
+         url('../fonts/overlockIT.svg#OverlockItalic') format('svg');
+
+}
+
+@font-face {
+    font-family: 'lob';
+    src: url('../fonts/lob.eot');
+    src: url('../fonts/lob.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SeasideResortNFRegular';
+    src: url('../fonts/seasrn.eot');
+    src: url('../fonts/seasrn.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/seasrn.woff') format('woff'),
+         url('../fonts/seasrn.ttf') format('truetype'),
+         url('../fonts/seasrn.svg#SeasideResortNFRegular') format('svg');
+
+}
+/*---------------TAGS------------*/
+
+.fl{float: left;}
+.fr{float: right;}
+.all{text-align: left;}
+.alr{text-align: right;}
+.alc{text-align: center;}
+.w500{width: 500px;}
+a{text-decoration: none;}
+
+#header>#menu>a>.active{color:#555;}
+#footer>#menu>a>.active{
+	color:#000;
+	background: #fff;
+	font-weight:bold;
+}
+/*----------HEADER----------*/
+#header{
+	width: 100%;
+	min-height:80px;
+	background: #fff;
+	position: fixed;
+	border-bottom: 3px solid black;
+}
+
+#logo{
+	display: inline-block;
+	height:80px;
+	width: 250px;
+	background:url('../images/logo.svg') no-repeat center center;
+	background-size: 150px auto;
+	margin-left: 20px;
+	float: left;
+}
+#logo:hover{background:url('../images/logo2.svg') no-repeat center center;background-size: 150px auto;}
+
+
+#header>#menu{
+	padding-top:10px;
+	float: right;
+	margin-right: 20px;
+	font-family: OverlockItalic;
+}
+
+
+#header>#menu>a>li{
+	display: inline-block;
+	color:#aaa;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+#header>#menu>a>li:hover{
+	color:#555;
+}
+
+/*---------------CONT----------*/
+
+#intro{
+	height: 90%;
+	padding-bottom: 100px;
+	clear: both;
+	background:url('../images/dcback.png') no-repeat center;
+	background-size: 40% auto;
+	border-bottom: 2px solid #eee
+}
+
+#intro>h1{
+	padding-top: 100px;
+	font-size: 40px;
+	font-family: SeasideResortNFRegular;
+	color: #0080db
+}
+
+#intro>p{
+	font-family: OverlockItalic;
+	font-size: 25px;
+	color:#fc2000;
+}
+
+
+.info{
+	min-height: 300px;
+	max-width:800px;
+	margin:10px auto;
+}
+
+.info>p{
+	clear: both;
+	margin: 20px 10px;
+	max-width: 500px;
+	font-family: OverlockItalic;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.info>h2{
+	clear: both;
+	margin: 20px 10px;
+	max-width: 500px;
+	font-family: lob;
+	color: #fc2000
+}
+
+.info>p>a{color: #0080db}
+.info>p>a:hover{color: #fc2000;text-decoration: underline;}
+
+
+
+#design{background: url('../images/ard.png') no-repeat right center;}
+#dev{background: url('../images/ald.png') no-repeat left center;}
+#host{background: url('../images/ard.png') no-repeat right center;}
+
+
+
+/*----------------FOOTER--------------*/
+
+#footer{
+	min-height: 100px;
+	background: #333;
+	margin-bottom: -20px;
+	border-top:2px solid #aaa;
+}
+
+
+
+#footer>#menu{
+	padding:20px;
+	margin-right: 20px;
+	margin:auto;
+	font-family: OverlockItalic;
+}
+
+
+#footer>#menu>a>li{
+	display: inline-block;
+	color:#eee;
+	padding: 10px;
+	max-width: 100px;
+}
+
+#footer>#menu>a>li:hover{
+	color:#000;
+	background: #fff;
+	font-weight:bold;
+}
+
+#footer>p{
+	font-family: overlockItalic;
+	font-size: 16px;
+	padding: 10px;
+	color:#eee;
+
+}
+/*----------MEDIA QUERIES-----------*/
+
+@media screen and (max-width: 700px){
+	#header{
+		position: relative;
+	}
+	#header>#menu{
+		padding:20px 0px 20px 0px;
+		margin:auto;
+		float: none;
+	}
+
+	#logo{
+		margin:auto;
+		float: none;
+	}
+
+	#intro{padding-top: 0px ;	background:url('../images/dcback2.png') no-repeat center;}
+	#intro>h1{padding: 20px 5px 0px 5px; font-size: 30px; }
+	#intro>p{padding: 0px 5px 0px 5px; font-size: 20px; }
+	#design{background:none;}
+	#dev{background: none;}
+	#host{background: none;}
+
+}
