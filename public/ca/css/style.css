@@ -41,6 +41,8 @@ body{
 .alc{text-align: center;}
 .w500{width: 500px;}
 a{text-decoration: none;}
+.blue{color:#0080db;}
+.orange{color: #fc2000}
 
 #header>#menu>a>.active{color:#555;}
 #footer>#menu>a>.active{
@@ -92,11 +94,9 @@ a{text-decoration: none;}
 /*---------------CONT----------*/
 
 #intro{
-	height: 90%;
+	height: auto;
 	padding-bottom: 100px;
 	clear: both;
-	background:url('../images/dcback.png') no-repeat center;
-	background-size: 40% auto;
 	border-bottom: 2px solid #eee
 }
 
@@ -113,6 +113,13 @@ a{text-decoration: none;}
 	color:#fc2000;
 }
 
+
+#dcback{
+	height:500px;
+	background:url('../images/dcback.png') no-repeat center;
+	background-size:auto 500px ;
+	overflow: hidden
+}
 
 .info{
 	min-height: 300px;
@@ -204,7 +211,7 @@ a{text-decoration: none;}
 		float: none;
 	}
 
-	#intro{padding-top: 0px ;	background:url('../images/dcback2.png') no-repeat center;}
+	#intro{padding-top: 0px ;}
 	#intro>h1{padding: 20px 5px 0px 5px; font-size: 30px; }
 	#intro>p{padding: 0px 5px 0px 5px; font-size: 20px; }
 	#design{background:none;}
