@@ -10,8 +10,8 @@ app.use(bodyParser());
 var transporter = nodemailer.createTransport({
     service: 'Mailgun',
     auth: {
-        user: 'postmaster@vishalnama.com',
-        pass: 'f0f9fa597f56431e17e7529822026492'
+        user: 'postmaster@pearlworld.co.in',
+        pass: 'b20a9c65d0c6a6c7f55fb85c02b27795'
     }
 });
 
@@ -26,7 +26,7 @@ app.post("/contact", function (req, res) {
 	
 	transporter.sendMail({
 	    from: [{name: body.firstName, address: body.email}],
-	    to: 'hello@vishalnama.com',
+	    to: 'info@pearlworld.co.in',
 	    subject: body.subject,
 	    html: '<h2>' + body.firstName + ' ' + body.lastName + '</h2><br><p>' + body.email + '</p><p>' + body.message + '</p>' 
 	}, function (err, resp) {
