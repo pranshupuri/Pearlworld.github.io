@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pearl World - Contact</title>
+	<link rel="stylesheet" href="../css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="logo"></div>
+			<div id="menu">
+				<a href="../index.html"><li class="item">HOME</li></a>
+				<a href="about.html"><li class="item">ABOUT US</li></a>
+				<a href="products.html"><li class="item">PRODUCTS</li></a>
+				<a href="contact.html"><li class="item active">CONTACT US</li></a>
+			</div>
+		</div>
+		<h3 class="tac tdn size-50">CONTACT US</h3>
+		<p class="tac text">send your queries to us and we will get back to u as soon as possible.</p>
+		<div id="contactinfo" class="">
+			<p2><b class="fwb text">Address : </b><b class="blue">Some adress 22/56 saket, new delhi, 110097.</b></p2><br>
+			<p2><b class="fwb text">Phone </b> : <b class="blue">011-29976462 / 9623246231</b></p2><br>
+			<p2><b class="fwb text">Mail</b> : <b><a href="mailto:info@pearlworld.co.in" class="blue">info@pearlworld.co.in</a></b></p2>
+			<div id="social">
+				<ul>
+					<a href="http://www.facebook.com/nama.vishal" target="_blank"><li id="fb" class="social"></li></a>
+					<a href="http://www.twitter.com/vishal_nama" target="_blank"><li id="tw" class="social"></li></a>
+					<a href="https://in.linkedin.com/in/vishalnama" target="_blank"><li id="in" class="social"></li></a>
+					<a href="https://plus.google.com/+vishalnama" target="_blank"><li id="gp" class="social"></li></a>
+					<a href="https://www.pinterest.com/namavishal/" target="_blank"><li id="pin" class="social"></li></a>
+				</ul>
+			</div>
+		</div>
+			<iframe
+			  width="100%"
+			  height="550"
+			  frameborder="0" style="border:0"
+			  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDVDpycF_kopgfInk3-3RvE6xjP-AvuyVQ&q=Pearl+world,newdelhi+IN" allowfullscreen>
+			</iframe>
+
+		<div id="inqury">
+			<p class="fwb white tac size-25">Send us a message !</p>
+			
+			
+			<form id="cform" method="post" action="/contact">
+					<input type="text" required name="firstName" placeholder="First Name*" id="firstname"><br>
+					<input type="text" required name="lastName" placeholder="Last Name*" id="lastname"><br>
+					<input type="email" required name="email" placeholder="E-mail*" id="email"><br>
+					<input type="text" required name="subject" placeholder="Subject / Product ID*" id="subject"><br>
+					<textarea type="text" required name="message" placeholder="Your Message*" id="msg" resize="on" ></textarea><br>
+				<button type="submit" id="send" class="button">Send</button>
+			</form>
+			
+		</div>
+			<p id="rights" class="tac ">&copy; <a href="#">Pearl World</a> 2017. All Rights Reserved.</p>
+	</div>
+
+
+
+	<script src="../js/jquery-2.1.3.min.js"></script>
+    <script src="../js/script.js"></script>
+</body> 
+</html>
